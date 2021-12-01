@@ -23,7 +23,8 @@ This is an expressjs app that lets users create reminder notes. They can add a t
 - [Questions](#questions)
                         
 ## Installation
-No installation needed. This app is deployed live to heroku and ready to use! 
+No installation needed. This app is deployed live to heroku and ready to use!
+<br>
 [Note Taker 10000](https://note-taker-10000.herokuapp.com/)
 <br><br>
                         
