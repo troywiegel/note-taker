@@ -4,7 +4,6 @@
 <br><br>
                         
 ## Description
-<br><br>
 This is an expressjs app that lets users create reminder notes. They can add a title, description and delete notes as needed.
 
 [Note Taker 10000]](https://note-taker-10000.herokuapp.com/)
