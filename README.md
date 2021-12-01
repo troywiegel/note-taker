@@ -21,7 +21,7 @@ This is an expressjs app that lets users create reminder notes. They can add a t
 - [Tests](#tests)
 - [Questions](#questions)
                         
-<br><br>
+<br>
 
 ## Usage
 Browse to [Note Taker 10000](https://note-taker-10000.herokuapp.com/) and start creating notes!
