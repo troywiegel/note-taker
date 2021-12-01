@@ -44,4 +44,20 @@ router.post('/api/notes', (req, res) => {
     })
 })
 
+// DELETE Route to remove a selected note
+router.delete('/api/notes/:id', (req, res) => {
+    fs.readFile(path.join(__dirname, '../db/db.json'), (err, data) => {
+        if (err) throw err
+        const dbNotes = JSON.parse(data)
+        const notesArray = dbNotes.filter(result => {
+            return result.id !== req.params.id
+        })
+
+        fs.writeFile(path.join(__dirname, '../db/db.json'), JSON.stringify(notesArray), (err, data) => {
+            if (err) throw err
+            res.json(notesArray)
+        })
+    })
+})
+
 module.exports = router
