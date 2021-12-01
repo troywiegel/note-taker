@@ -6,7 +6,7 @@
 ## Description
 This is an expressjs app that lets users create reminder notes. They can add a title, description and delete notes as needed.
 
-[Note Taker 10000]](https://note-taker-10000.herokuapp.com/)
+[Note Taker 10000](https://note-taker-10000.herokuapp.com/)
 
 ![nt1](https://user-images.githubusercontent.com/37552547/144277388-22e05645-9eb8-4d34-a126-ff50b3778b72.JPG)
 ![nt2](https://user-images.githubusercontent.com/37552547/144277399-3093f8a7-2f83-4e5a-b415-4b8ddb5aec46.JPG)
@@ -27,7 +27,7 @@ No installation needed. This app is deployed live to heroku and ready to use!
 <br><br>
                         
 ## Usage
-Browse to [Note Taker 10000]](https://note-taker-10000.herokuapp.com/) and start creating notes!
+Browse to [Note Taker 10000](https://note-taker-10000.herokuapp.com/) and start creating notes!
 <br><br>
 
 ## License
