@@ -27,7 +27,7 @@ router.get('/*', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/index.html'))
 })
 
-//POST API Route to read the notes db and add new notes to it
+// POST API Route to read the notes db and add new notes to it
 router.post('/api/notes', (req, res) => {
     fs.readFile(path.join(__dirname, '../db/db.json'), (err, data) => {
         if (err) throw err
@@ -36,7 +36,7 @@ router.post('/api/notes', (req, res) => {
         newNote.id = uuidv4()
         dbNotes.push(newNote)
 
-        const createNote = JSON.stringify(dbNotes)
+        const createNote = JSON.stringify(dbNotes, null, 4)
         fs.writeFile(path.join(__dirname, '../db/db.json'), createNote, (err) => {
             if (err) throw err
         })
